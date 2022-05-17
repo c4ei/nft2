@@ -22,8 +22,8 @@
 //     const auctionPrice = ethers.utils.parseUnits("1", "ether");
 //     console.log("auctionPrice", auctionPrice);
 
-//     await nft.createToken("https://www.mytokenlocation.com");
-//     await nft.createToken("https://www.mytokenlocation2.com");
+//     await nft.createToken("https://nft.c4ei.net");
+//     await nft.createToken("nft2.c4ei.net");
 
 //     await market.createMarketItem(nftContractAddress, 1, auctionPrice, {
 //       value: listingPrice,
@@ -79,8 +79,8 @@ describe("NFTMarket", function () {
 
     const auctionPrice = ethers.utils.parseUnits('100', 'ether')
 
-    await nft.createToken("https://www.mytokenlocation.com")
-    await nft.createToken("https://www.mytokenlocation2.com")
+    await nft.createToken("https://nft.c4ei.net")
+    await nft.createToken("nft2.c4ei.net")
   
     await market.createMarketItem(nftContractAddress, 1, auctionPrice, { value: listingPrice })
     await market.createMarketItem(nftContractAddress, 2, auctionPrice, { value: listingPrice })

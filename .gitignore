@@ -30,6 +30,7 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 .secret
+.env
 .infuraid
 
 # vercel
@@ -39,3 +40,4 @@ yarn-error.log*
 /artifacts
 /cache
 config.js
+/chg

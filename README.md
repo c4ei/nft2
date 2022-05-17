@@ -36,3 +36,21 @@ Open Store is a NFT marketplace where traders can buy and sell NFT tokens throug
 # Technologies Used
 
 Polygon, IPFS, Next.js, Hardhat, Ethereum, Solidity, Metamask,HTML/CSS, BootStrap, JavaScript
+
+
+npx hardhat compile
+
+npx hardhat run --network mainnet scripts/deploy.js
+
+npx hardhat run --network c4ei scripts/deploy.js
+
+### "OpenStore Tokens", "OST"
+dev@ubuntu:~/www/nft2$ npx hardhat run scripts/deploy.js
+nftMarket deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+nft deployed to: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+
+npx hardhat run --network c4ei scripts/deploy.js
+
+dev@ubuntu:~/www/nft2$ npx hardhat run --network c4ei scripts/deploy.js
+nftMarket deployed to: 0x365Bb16C0aCD522a138615398F9dea601660242d
+nft deployed to: 0x7859923aeF4263462dE5363497F43D89158A6Cb0
