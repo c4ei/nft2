@@ -54,3 +54,8 @@ npx hardhat run --network c4ei scripts/deploy.js
 dev@ubuntu:~/www/nft2$ npx hardhat run --network c4ei scripts/deploy.js
 nftMarket deployed to: 0x365Bb16C0aCD522a138615398F9dea601660242d
 nft deployed to: 0x7859923aeF4263462dE5363497F43D89158A6Cb0
+
+npx hardhat run --network mainnet scripts/deploy.js
+dev@ubuntu:~/www/nft2$ npx hardhat run --network mainnet scripts/deploy.js
+nftMarket deployed to: 0x2B1D124552B6ACE31Deec3e9E09ab38e147d6CE2
+nft deployed to: 0xB25c7DbE3d778Fb0B74eEF8F43708b55222C99de

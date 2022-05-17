@@ -10,10 +10,11 @@ module.exports = {
     hardhat: {
       chainId: 21004,
     },
-    c4ei: {
+    mainnet: {
       // Infura
       // url: `https://polygon-mumbai.infura.io/v3/${infuraId}`,
       url: `https://rpc.c4ei.net`,
+      chainId: 21004,
       accounts: [privateKey],
     },
   },
