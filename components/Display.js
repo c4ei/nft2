@@ -18,24 +18,23 @@ export default function Display() {
           <div className="col-md-6">
             <div className="box-for-names" id="hello-world">
               <h1 className="title-main">
-                <b>Open Store</b>
+                <b>NFT Store</b>
               </h1>
               <h4 className="mt-2">
                 An Online Blockchain NFT Marketplace which prevents duplicate
                 assets.
               </h4>
               <h5 className="mt-2 text-white">
-                This is deployed on a testnet and the assets currently hold no
-                real value.
+                This is deployed on a c4ei.net 
               </h5>
-              <a href="https://youtu.be/sHytyvUQB0Q" target="blank">
+              {/* <a href="https://youtu.be/sHytyvUQB0Q" target="blank">
                 <button
                   className=" flex-row-reverse mt-3 px-5 text-center"
                   id="commonbuttons"
                 >
                   <b>View Demo</b>
                 </button>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

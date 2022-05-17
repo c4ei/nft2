@@ -38,7 +38,7 @@ export default function Navbar() {
         <Link passHref={true} href="/" className="navbar-brand">
           <div id="leftlogo">
             <Image
-              src="/assets/navbar-logo-new.svg"
+              src="/assets/c4ei.svg"
               alt="Navbar Logo"
               className="d-inline-block align-top"
               loading="lazy"
@@ -80,8 +80,8 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="link-background">
-              <Link passHref={true} href="/about" className="nav-link left">
-                <a className={"nav-link left"}> About Us</a>
+              <Link passHref={true} href="https://c4ei.net" className="nav-link left">
+                <a className={"nav-link left"}> c4ei.net</a>
               </Link>
             </li>
             {!connected && (

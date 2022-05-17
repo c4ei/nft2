@@ -7,12 +7,12 @@ export default function Footer() {
         <div className="row">
           <div className="col-md-5 footer_about_section">
             <h3>
-              <b>About OpenStore</b>
+              <b>About c4ei</b>
             </h3>
             <p className="text-justify about_footer">
-              OpenStore is an NFT marketplace deployed on Polygon testnet.
+              nft.c4ei.net is an NFT marketplace deployed on C4EI mainnet.
             </p>
-            <a href="https://github.com/rgab1508/OpenStore">
+            <a href="https://github.com/c4ei/nft2">
               <button id="commonbuttons">
                 <b>Know More</b>
               </button>
@@ -24,7 +24,7 @@ export default function Footer() {
             </h3>
             <ul className="footer-links">
               <li>
-                <a href="https://github.com/rgab1508/OpenStore">Source code</a>
+                <a href="https://github.com/c4ei/nft2">Source code</a>
               </li>
               <li>
                 <Link href="/about">About Us</Link>
@@ -37,9 +37,9 @@ export default function Footer() {
             </h3>
             <ul className="footer-links">
               <li>
-                <a href="mailto:adiunni@hotmail.com?subject =Contact you regarding OpenStore = Message">
+                <a href="mailto:c4ei.net@gmail.com?subject=Contact you regarding nft.c4ei = Message">
                   <i className="fa fa-2x fa-envelope" aria-hidden="true"></i>{" "}
-                  droptableteam@gmail.com
+                  c4ei.net@gmail.com
                 </a>
               </li>
             </ul>
