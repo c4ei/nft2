@@ -16,7 +16,7 @@ export default function Card({ data, buyNft, key }) {
             {data.name}
           </h5>
           <h5 className="card-title">
-            {data.price} <b>ETH</b>
+            {data.price} <b>C4EI</b>
           </h5>
           <div className="row">
             <div className="col-6">

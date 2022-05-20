@@ -12,9 +12,9 @@ export default function Footer() {
             <p className="text-justify about_footer">
               nft.c4ei.net is an NFT marketplace deployed on C4EI mainnet.
             </p>
-            <a href="https://github.com/c4ei/nft2">
+            <a href="https://c4ei.net">
               <button id="commonbuttons">
-                <b>Know More</b>
+                <b>goto C4EI</b>
               </button>
             </a>
           </div>
@@ -27,7 +27,7 @@ export default function Footer() {
                 <a href="https://github.com/c4ei/nft2">Source code</a>
               </li>
               <li>
-                <Link href="/about">About Us</Link>
+                <Link href="https://c4ei.net">About Us</Link>
               </li>
             </ul>
           </div>

@@ -161,7 +161,7 @@ export default function CreateItem() {
                     />
                   </li>
                   <li>
-                    <label htmlFor="id_price_in_eth">Asset price in ETH:</label>{" "}
+                    <label htmlFor="id_price_in_eth">Asset price in C4EI:</label>{" "}
                     <input
                       type="number"
                       name="price"

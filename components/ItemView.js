@@ -52,7 +52,7 @@ export default function Itemview() {
           <h1 className="display-4 ">IPhone</h1>
           <span className="big-text">5.000</span>
 
-          <span className="small-text"> ETH</span>
+          <span className="small-text"> C4EI</span>
 
           <h5 className="display-6" text-justify>
             <b>Created by :</b> XYZ
